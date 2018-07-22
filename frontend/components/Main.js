@@ -237,10 +237,10 @@ class Main extends React.Component {
       >
         <View>
           <View style={styles.container}>
-            <View style={{ height: 30 }} />
+            <View style={{ height: 50 }} />
             <AnimatedCircularProgress
-              size={225}
-              width={13}
+              size={300}
+              width={20}
               fill={percent}
               tintColor={percent < 100 ? "#CB4D4C" : "rgb(255,0,0)"} //'#b166ae'
               onAnimationComplete={() => {}}
