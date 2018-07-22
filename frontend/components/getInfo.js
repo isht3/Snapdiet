@@ -26,8 +26,8 @@ class GetInfo extends React.Component {
         gender: "M"
       },
       imperial: false,
-      wUnits: "KG",
-      hUnits: "CM"
+      wUnits: "kg",
+      hUnits: "cm"
     };
   }
 
@@ -110,14 +110,14 @@ class GetInfo extends React.Component {
     if (this.state.imperial == true)
       this.setState({
         imperial: false,
-        hUnits: "CM",
-        wUnits: "KG"
+        hUnits: "cm",
+        wUnits: "kg"
       });
     else
       this.setState({
         imperial: true,
-        hUnits: "Ft",
-        wUnits: "Lbs"
+        hUnits: "ft",
+        wUnits: "lbs"
       });
   };
 
